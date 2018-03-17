@@ -36,7 +36,7 @@ spring:
    ##数据sql
      datasource:
            driver-class-name: com.mysql.jdbc.Driver
-           url: jdbc:mysql://120.77.37.251:3306/film?autoReconnect=true&useSSL=false&characterEncoding=utf-8
+           url: jdbc:mysql://120.77.37.251:3306/mysql?autoReconnect=true&useSSL=false&characterEncoding=utf-8
            username: root
            password: 123456
     ##jpa配置
@@ -45,7 +45,7 @@ spring:
         ##ddl-auto: create table if exists jpa_vo
         ##ddl-auto: create-drop 应用停下来时候删除
         ##ddl-auto: update 更新表结构
-          ddl-auto: update
+          ddl-auto: create-drop
         show-sql: true
     ##配置redis，可以没有密码
      redis:

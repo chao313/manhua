@@ -1,4 +1,4 @@
-package demo.spring.boot.demospringboot.thrid.party.util;
+package demo.spring.boot.demospringboot.controller.mankan.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
