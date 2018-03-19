@@ -80,7 +80,7 @@ public class MankanController {
                         @RequestParam(name = "page", required = false, defaultValue = "1") Integer page,
                         @RequestParam(name = "size", required = false, defaultValue = "10") Integer size) {
 
-        map.put("now", "/show?url=" + url + "&page=" + page + "&size=" + size);
+        map.put("now", "/chao/mankan/show?url=" + url + "&page=" + page + "&size=" + size);
         return "index";
     }
 
